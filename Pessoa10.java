@@ -1,12 +1,11 @@
 public class Pessoa10 {
     public int qtdPessoas;
-    public int idade;
+    public Integer idade;
 
-    public String checarIdade(){
-        if(idade >= 18){
+    public String checarIdade() {
+        if (idade >= 18) {
             return "Maior de idade";
-        }
-        else{
+        } else {
             return "Menor de idade";
         }
     }
