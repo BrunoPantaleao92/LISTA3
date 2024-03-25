@@ -16,6 +16,10 @@ public class Programa {
             case 3:
                 Exercicio3.executar();
                 break;
+
+            case 4:
+                Exercicio4.executar();
+                break;
                 
             default:
             Prompt.imprimir("Número inválido");
