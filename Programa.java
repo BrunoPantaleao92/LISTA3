@@ -8,7 +8,7 @@ public class Programa {
             case 1:
                 Exercicio1.executar();
                 break;
-                
+
             case 2:
                 Exercicio2.executar();
                 break;
@@ -24,29 +24,33 @@ public class Programa {
             case 5:
                 Exercicio5.executar();
                 break;
-                
+
             case 6:
                 Exercicio6.executar();
-                break;        
+                break;
 
             case 7:
                 Exercicio7.executar();
-                break;        
+                break;
 
             case 8:
                 Exercicio8.executar();
-                break;  
+                break;
 
             case 9:
                 Exercicio9.executar();
-                break;   
+                break;
 
             case 10:
                 Exercicio10.executar();
-                break;  
+                break;
+
+            case 11:
+                Exercicio11.executar();
+                break;
 
             default:
-            Prompt.imprimir("Número inválido");
+                Prompt.imprimir("Número inválido");
                 break;
         }
     }
