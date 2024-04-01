@@ -92,6 +92,10 @@ public class Programa {
 
             case 22:
                 Exercicio22.executar();
+                break;
+
+            case 23:
+                Exercicio23.executar();
                 break; 
 
             default:
