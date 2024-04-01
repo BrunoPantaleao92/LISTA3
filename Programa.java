@@ -70,12 +70,16 @@ public class Programa {
                 break; 
                 
             case 17:
-            Exercicio17.executar();
-            break; 
+                Exercicio17.executar();
+                break; 
                             
             case 18:
-            Exercicio18.executar();
-            break; 
+                Exercicio18.executar();
+                break; 
+            
+            case 19:
+                Exercicio19.executar();
+                break; 
 
             default:
                 Prompt.imprimir("Número inválido");
